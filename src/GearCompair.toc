@@ -1,0 +1,6 @@
+## Interface: 70100
+## Title: GearCompair
+## Author: JAT
+## Version: 0.04
+
+main.lua

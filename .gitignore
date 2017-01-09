@@ -1,0 +1,4 @@
+.buildpath
+.gradle/*
+.project
+build/*

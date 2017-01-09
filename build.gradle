@@ -1,0 +1,11 @@
+task clean {
+    delete 'build'
+}
+
+task zip(type:Zip) {
+ from ('src/')
+ include '**/*.toc'
+ include '**/*.lua'
+ archiveName 'gearCompair.zip'
+ destinationDir file('build/') // directory that you want your archive to be placed in
+}
